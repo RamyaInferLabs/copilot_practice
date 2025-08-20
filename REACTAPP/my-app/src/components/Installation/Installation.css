@@ -1,0 +1,86 @@
+.installation-section {
+  padding: 6rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-color);
+}
+
+.terminal-container {
+  width: 100%;
+  max-width: 800px;
+  background: #1a1d21;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.terminal-header {
+  background: #2a2d31;
+  padding: 1rem;
+  color: var(--text-color);
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.terminal-icon {
+  color: var(--primary-color);
+}
+
+.terminal-body {
+  padding: 2rem;
+  font-family: 'Fira Code', monospace;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.command-block {
+  margin-bottom: 1.5rem;
+}
+
+.terminal-comment {
+  color: #636d83;
+  margin-bottom: 0.5rem;
+}
+
+.terminal-command {
+  color: var(--text-color);
+}
+
+.terminal-command .highlight {
+  color: #E100FF;
+}
+
+.terminal-command span:first-child {
+  color: #00E6FD;
+}
+
+.success-message {
+  color: #4ade80;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.check-icon {
+  background: rgba(74, 222, 128, 0.2);
+  color: #4ade80;
+  padding: 0.2rem;
+  border-radius: 50%;
+}
+
+@media (max-width: 640px) {
+  .terminal-container {
+    font-size: 0.8rem;
+  }
+  
+  .terminal-body {
+    padding: 1rem;
+  }
+}

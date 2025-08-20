@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar/Navbar';
 import Hero from '../components/Hero/Hero';
 import Features from '../components/Features/Features';
+import Installation from '../components/Installation/Installation';
 import '../App.css';
 
 const HomePage = () => {
@@ -10,6 +11,7 @@ const HomePage = () => {
       <Navbar />
       <Hero />
       <Features />
+      <Installation />
     </div>
   );
 };
